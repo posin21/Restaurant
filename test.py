@@ -45,6 +45,8 @@ def get_inventory():
 
     return jsonify(python_list)
 
+
+
 @app.route('/tables')
 def tables():
     return render_template('tables.html')
