@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="main">
+        <div class="navbar">
+            <div class="title">SUSHI RESTAURANT</div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/customer">Customer</a></li>
+                    <li><a href="/orders">Orders</a></li>
+                    <li><a href="/employee">Employee</a></li>
+                </ul>
+        </div>
+        <div class="dashboard">
+            <div class="row">
+
+                <div class="card">
+                    <img class="img" src="../static/images/supplier.png" alt="Supplier Icon" />
+                    <div class="card-container">
+                        <div class="card-title">Supplier</div>
+                        <div class="input-field">
+                            <a href="/supplier">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img" src="../static/images/inventory.png" alt="inventory icon" />
+                    <div class="card-container">
+                        <div class="card-title">Inventory</div>
+                        <div class="input-field">
+                            <a href="/inventory">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img" src="../static/images/customer.png" alt="customer icon" />
+                    <div class="card-container">
+                        <div class="card-title">Customer</div>
+                        <div class="input-field">
+                            <a href="/customer">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="card">
+                    <img class="img" src="../static/images/table.png" alt="table Icon" />
+                    <div class="card-container">
+                        <div class="card-title">Tables</div>
+                        <div class="input-field">
+                            <a href="/tables">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img" src="../static/images/menu.png" alt="menu icon" />
+                    <div class="card-container">
+                        <div class="card-title">Menu</div>
+                        <div class="input-field">
+                            <a href="/menu">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img" src="../static/images/order.png" alt="order icon" />
+                    <div class="card-container">
+                        <div class="card-title">Orders</div>
+                        <div class="input-field">
+                            <a href="/order">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="card">
+                    <img class="img" src="../static/images/chef.png" alt="chef Icon" />
+                    <div class="card-container">
+                        <div class="card-title">Chef</div>
+                        <div class="input-field">
+                            <a href="/chef">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img" src="../static/images/waiter.png" alt="waiter icon" />
+                    <div class="card-container">
+                        <div class="card-title">Employee</div>
+                        <div class="input-field">
+                            <a href="/employee">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img" src="../static/images/pay.png" alt="pay icon" />
+                    <div class="card-container">
+                        <div class="card-title">Payment</div>
+                        <div class="input-field">
+                            <a href="/payment">                            
+                            <div class="edit-text">Edit</div>
+                            <div class="icon"><img class="union" src="../static/images/icon.png" alt="Edit Icon" /></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+  </body>
+</html>

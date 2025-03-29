@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/globals.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="inventory">
+        <div class="div">
+          <div class="topic">Inventory</div>
+          <div class="navbar">
+            <div class="title">SUSHI RESTAURANT</div>
+            <div class="text-wrapper">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/customer">Customer</a></li>
+                    <li><a href="/orders">Orders</a></li>
+                    <li><a href="/employee">Employee</a></li>
+                </ul>
+            </div>
+          </div>
+
+          <!-- Table -->
+          <table>
+              <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Quantity</th>
+                  </tr>
+              </thead>
+              <tbody id="supplierTable">
+
+              </tbody>
+          </table>
+        </div>
+      </div>
+      <script src="/static/js/fetch.js"></script>
+  </body>
+
+</html>
